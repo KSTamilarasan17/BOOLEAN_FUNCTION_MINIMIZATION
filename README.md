@@ -38,6 +38,7 @@ Hardware – PCs, Cyclone II , USB flasher
 Developed by: TAMILARASAN K S.
 RegisterNumber:212223100056
 ## program
+```
  module combinationalcircuit(A,B,C,D,F1);
  input A,B,C,D;
  output F1;
@@ -49,7 +50,7 @@ RegisterNumber:212223100056
  assign x5=(B)&(~C)&(D);
  assign F1=x1|x2|x3|x4|x5;
  endmodule 
-
+```
 
 
 
